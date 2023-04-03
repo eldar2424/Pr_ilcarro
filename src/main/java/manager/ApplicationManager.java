@@ -17,7 +17,11 @@ public class ApplicationManager {
       options.addArguments("--remote-allow-origins=*");
       wd = new ChromeDriver(options);
       wd.manage().window().maximize();
+<<<<<<< Updated upstream
       wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+=======
+      wd.manage().timeouts().
+>>>>>>> Stashed changes
       wd.navigate().to("https://ilcarro.web.app/");
       helperUser = new HelperUser(wd);
 

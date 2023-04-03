@@ -1,9 +1,13 @@
 package test;
 
+<<<<<<< Updated upstream
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+=======
+import org.openqa.selenium.By;
+>>>>>>> Stashed changes
 import org.testng.annotations.Test;
 
 public class LoginTests extends  TestBase {
@@ -16,7 +20,12 @@ public class LoginTests extends  TestBase {
     }
 
     @Test
+<<<<<<< Updated upstream
     public void loginSuccess1() {
+=======
+    public void loginSuccess(){
+
+>>>>>>> Stashed changes
 
         User user = new User().setEmail("eldar@mail.com").setPassword("Abcde12345!");
 //        user.setEmail("noa@gmail.com");

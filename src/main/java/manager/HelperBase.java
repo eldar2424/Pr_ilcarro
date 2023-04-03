@@ -1,5 +1,13 @@
 package manager;
 
+<<<<<<< Updated upstream
+=======
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class HelperBase {
+>>>>>>> Stashed changes
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +16,7 @@ import org.openqa.selenium.WebElement;
 public class HelperBase {
     WebDriver wd;
 
+<<<<<<< Updated upstream
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
@@ -37,5 +46,12 @@ public class HelperBase {
 
     public boolean isElementPresent(By locator){
         return wd.findElements(locator).size()>0;
+=======
+    public HelperBase(WebDriver wd) { this.wd = wd; }
+
+
+    public void click(By locator){
+        WebElement
+>>>>>>> Stashed changes
     }
 }
